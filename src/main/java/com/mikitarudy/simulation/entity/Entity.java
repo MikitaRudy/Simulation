@@ -7,8 +7,7 @@ public abstract class Entity {
         this.emoji = emoji;
     }
 
-    @Override
-    public String toString() {
+    public String getEmoji() {
         return emoji;
     }
 }

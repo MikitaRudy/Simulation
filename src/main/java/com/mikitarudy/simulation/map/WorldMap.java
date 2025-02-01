@@ -3,12 +3,12 @@ package main.java.com.mikitarudy.simulation.map;
 import main.java.com.mikitarudy.simulation.entity.Entity;
 import java.util.*;
 
-public class Map {
+public class WorldMap {
     private final int width;
     private final int height;
-    private HashMap<Position, Entity> entities = new HashMap<>();
+    private Map<Position, Entity> entities = new HashMap<>();
 
-    public Map(int width, int height) {
+    public WorldMap(int width, int height) {
         this.width = width;
         this.height = height;
     }
