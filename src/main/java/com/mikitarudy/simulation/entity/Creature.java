@@ -1,8 +1,9 @@
 package main.java.com.mikitarudy.simulation.entity;
 
 public abstract class Creature extends Entity {
-    // скорость
-    // ХП
+    public Creature(String emoji) {
+        super(emoji);
+    }
 
     // метод makeMove()
 }
