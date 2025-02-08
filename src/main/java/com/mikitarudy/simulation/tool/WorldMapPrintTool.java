@@ -9,10 +9,10 @@ public class WorldMapPrintTool {
             for (int y = 0; y < worldMap.height; y++) {
                 Position position = new Position(x, y);
                 if (worldMap.isPositionEmpty(position)) {
-                    System.out.print("\uD83C\uDFFD" + " ");
+                    System.out.print(Constants.EMPTY_CELL + Constants.BLANK);
                 }
                 else {
-                    System.out.print(worldMap.getEntity(position).getEmoji() + " ");
+                    System.out.print(worldMap.getEntity(position).getEmoji() + Constants.BLANK);
                 }
             }
             System.out.println();

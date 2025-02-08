@@ -1,7 +1,6 @@
 package main.java.com.mikitarudy.simulation.tool;
 
-import main.java.com.mikitarudy.simulation.map.Position;
-import main.java.com.mikitarudy.simulation.map.WorldMap;
+import main.java.com.mikitarudy.simulation.map.*;
 
 import java.util.Random;
 
