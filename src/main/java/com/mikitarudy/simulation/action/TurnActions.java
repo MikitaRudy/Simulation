@@ -35,7 +35,9 @@ public class TurnActions extends Action {
         List<Creature> creatures = worldMap.getAllCreatures();
         for (Creature creature : creatures) {
             Position currentPos = worldMap.getPositionOf(creature);
-            if (currentPos == null) continue;
+            if (currentPos == null){
+                continue;
+            }
             creature.makeMove(worldMap, pathFinder);
         }
     }
