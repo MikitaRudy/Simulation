@@ -8,7 +8,6 @@ import main.java.com.mikitarudy.simulation.map.WorldMap;
 import main.java.com.mikitarudy.simulation.pathfinding.PathFinder;
 import main.java.com.mikitarudy.simulation.tool.Constants;
 import main.java.com.mikitarudy.simulation.tool.FindEmptyPositionTool;
-import main.java.com.mikitarudy.simulation.tool.WorldMapPrintTool;
 
 import java.util.List;
 
@@ -30,7 +29,6 @@ public class TurnActions extends Action {
         moveCreatures();
         generateNewGrassIfNeeded();
         generateNewHerbivoreIfNeeded();
-        WorldMapPrintTool.printWorldMap(worldMap);
     }
 
     private void moveCreatures(){

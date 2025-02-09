@@ -23,6 +23,10 @@ public class Constants {
             """;
     public static final String INFINITY = """
             [1] - остановить симуляцию
-            [0] - выйти из приложения
             """;
+    public static final String ONE = "1";
+    public static final String TWO = "2";
+    public static final String ZERO = "0";
+    public static final String INCORRECT_INPUT = "Неверный ввод, введите корректное значение.";
+    public static final String SIMULATION_START = "Симуляция запущена:";
 }
